@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Logic
+  - Item
+  - Flower
+  - Radial
+  - Canvas
+  - HiveRadial
+  - PollenConverter
+  - FlowerSpawner
+  - DroppedPollen
+  - bloomBooster
+  - perennialCharm
+  - nectarCollector
+  - nectarPouch
+  - honeycombAccelerator
+  - bloomBoosterPacket
+  - perennialCharmPacket
+  - nectarCollectorPacket
+  - nectarPouchPacket
+  - honeycombAcceleratorPacket
+  - bee
+  - Packet
+  - radialGUI
+  - Settings
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Packet
+  - Water
+  - UI
+  - Flower
+  - Bee
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Book
+    uniqueID: 2350955241
+    locked: 0
+  m_RenderingLayers:
+  - Default

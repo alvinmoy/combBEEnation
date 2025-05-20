@@ -1,0 +1,282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6629706128496499268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2372283831124630273}
+  - component: {fileID: 275914405990565172}
+  - component: {fileID: 4297259858787635191}
+  - component: {fileID: -2640579542335470909}
+  - component: {fileID: 6726058496876934258}
+  - component: {fileID: 8163593928874732913}
+  - component: {fileID: 1130573850822163365}
+  - component: {fileID: 9035019805958771244}
+  m_Layer: 6
+  m_Name: flower
+  m_TagString: Flower
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2372283831124630273
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6629706128496499268}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 3.66, y: 3.65}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!212 &275914405990565172
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6629706128496499268}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 8930040331006808181, guid: ac09c0c8a81d0e94f80b9e5fafcbd777, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.66, y: 3.65}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &4297259858787635191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6629706128496499268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61ac77fc2ff3a164982a1d98ef1a9ab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logic: {fileID: 0}
+  item: {fileID: 0}
+  radialScript: {fileID: 0}
+  radialObject: {fileID: 4042038299366281496, guid: 64993dad79b579e48aef27ec31c51e07, type: 3}
+  radialClone: {fileID: 0}
+  radialParent: {fileID: 7452652559689093506, guid: 9acbebc143ad6264897537242bc16272, type: 3}
+  canvas: {fileID: 0}
+  lowerGUI: {fileID: 0}
+  Bee: {fileID: 2157091748864074057, guid: 41c9583a518f0cc4aa0dd6791bf6eff4, type: 3}
+  DroppedPollen: {fileID: 6020622191815731554, guid: 22d8ad31abcbb8446afa8caee3db966b, type: 3}
+  beeBomb: {fileID: 2544366297306521645, guid: c8908ca7904a0494985b01e4fdbdbb6a, type: 3}
+  beeClone: {fileID: 0}
+  beeBombClone: {fileID: 0}
+  luckyDroppedPollen: {fileID: 783415564463290344, guid: 3dc0cde1b34471640b95f0b0e7620653, type: 3}
+  clickCount: 0
+  maxClickCount: 3
+  inUse: 0
+  timer: 0
+  beeBombTimer: 1
+  convertRate: 3
+  pollenObtained: 1
+  pollenSpawnedCount: 1
+  wasSetByBeeBomb: 0
+  dropSound: {fileID: 8300000, guid: 5c7b5769b4f5d4e4fa7b363cebfd0c93, type: 3}
+  stinger: {fileID: 8300000, guid: 879462e0a98c930488d56542da8cf36f, type: 3}
+  hasBeenChecked: 0
+  flowerMinus: 0
+  isVengeanceStinger: 0
+  isItemFlower: 0
+  itemFlowerNum: 0
+  tier1Item: {fileID: 2611943833957449402, guid: e13e537458b12574c86b1b8bc3bcab75, type: 3}
+  propolisPouch: {fileID: 5016800627053885361, guid: aeecaee8a073f1046a30e79d813dc03f, type: 3}
+  copperWings: {fileID: 864387901884246625, guid: fee77b58c5052f8459456dde623a68d9, type: 3}
+  electricTippedProb: {fileID: 7125801629976879593, guid: c01ff7d49b721dd48bd3bfc4ea150c03, type: 3}
+  queensGrain: {fileID: -7047037463726190413, guid: d00c999d415f7ed4dbfdb933480ecd7a, type: 3}
+  pollenPendant: {fileID: -7576389641353937282, guid: d308138d00f9f494a841a75936d174b6, type: 3}
+  broodBud: {fileID: 7498953670610371589, guid: ca0a6576d8e159840a05996f05410892, type: 3}
+  hivePack: {fileID: -7854203163165435890, guid: 53b02357ec74b4543b51033e0528c96f, type: 3}
+  royalFertilizer: {fileID: -8418608994802070764, guid: bbb5749a9cc448f40ac3bee28136f48e, type: 3}
+  vengeanceStinger: {fileID: 1187542702770554773, guid: 8de9bf2f81a83554a83b9f8f80f789e3, type: 3}
+  apiaristsInfusion: {fileID: -467285585956338589, guid: f55f8112205199a47809ddc6dd7224bf, type: 3}
+  obsidianOcelus: {fileID: 21300000, guid: 259c0400e52505f46a114e2bd024493e, type: 3}
+  beeSwarm: {fileID: -4195154272472156924, guid: 4f931471d1bc09b4bbad3201aac05359, type: 3}
+  perennialCharm: {fileID: 878910498777145745, guid: 777221b8c7c450944ad91b2d9eb224b3, type: 3}
+  queensWateringPot: {fileID: 3889620975301239558, guid: d5a7925e555c8054da0209a975684f37, type: 3}
+  chronoComb: {fileID: 6792704474672139861, guid: 630dec3726137f64b82dcdbce0df5430, type: 3}
+  sucroseLodestone: {fileID: -5337007172369906154, guid: 44275d6c48a54534fa0fb326d04f78e0, type: 3}
+  luckyStamen: {fileID: -7440362907111900676, guid: 42283ab8183733148968a4cefe8983d7, type: 3}
+  eternalMist: {fileID: -7555650899437608844, guid: eeeec523b059bdd4dae399128bfd718f, type: 3}
+  waxSiphon: {fileID: 2442808131828828396, guid: 256a52fcdd053214d91da915cd66dd83, type: 3}
+  petalExtractor: {fileID: 1171350384158991267, guid: 40e5e4d3626a22743a1700efdd377f5f, type: 3}
+--- !u!50 &-2640579542335470909
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6629706128496499268}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!222 &6726058496876934258
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6629706128496499268}
+  m_CullTransparentMesh: 1
+--- !u!114 &8163593928874732913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6629706128496499268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 151bf6a3fa51e9b479f86dcc32748f95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  num: 0
+--- !u!114 &1130573850822163365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6629706128496499268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04b7c1445685ccf4e9f1f889f9845263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 
+  thisSprite: {fileID: 0}
+  tt: {fileID: 0}
+  bloomBoosterPacket: {fileID: 0}
+  perennialCharmPacket: {fileID: 0}
+  nectarCollectorPacket: {fileID: 0}
+  nectarPouchPacket: {fileID: 0}
+  honeycombAcceleratorPacket: {fileID: 0}
+  packet1: {fileID: 0}
+  packet2: {fileID: 0}
+  packet3: {fileID: 0}
+  packet1Script: {fileID: 0}
+  packet2Script: {fileID: 0}
+  packet3Script: {fileID: 0}
+--- !u!61 &9035019805958771244
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6629706128496499268}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.32, y: 2}
+    newSize: {x: 3.66, y: 3.65}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.47, y: 2.15}
+  m_EdgeRadius: 0
